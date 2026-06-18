@@ -13,7 +13,7 @@ const designProjects = {
 
     category: "Brand Identity",
 
-    hero: "/assets/design/rest 1.png",
+    hero: "/assets/design/rest 1.jpg",
 
     overview:
          "A refined brand identity developed for Gericht Restaurant, a modern fine-dining destination focused on delivering exceptional culinary experiences. The visual system was designed to communicate elegance, sophistication, and premium hospitality while creating a memorable presence across both digital and physical touchpoints.",
@@ -44,12 +44,12 @@ const designProjects = {
     ],
 
     gallery: [
-      "/assets/design/rest4.png",
-      "/assets/design/rest5.png",
-      "/assets/design/rest7.png",
-      "/assets/design/rest8.png",
-      "/assets/design/RESTMOC5.png",
-      "/assets/design/RESTMOC6.png",
+      "/assets/design/rest4.jpg",
+      "/assets/design/rest5.jpg",
+      "/assets/design/rest7.jpg",
+      "/assets/design/rest8.jpg",
+      "/assets/design/RESTMOC5.jpg",
+      "/assets/design/RESTMOC6.jpg",
     ],
   },
    "techzenith": {
@@ -57,7 +57,7 @@ const designProjects = {
 
     category: "Brand Identity",
 
-    hero: "/assets/design/z7.png",
+    hero: "/assets/design/z7.jpg",
 
     overview:
      "A modern visual identity developed for TechZenith, a technology-focused brand dedicated to innovation, digital transformation, and intelligent solutions. The branding system was designed to communicate trust, progress, and technological excellence while maintaining a clean and adaptable visual presence.",
@@ -88,13 +88,13 @@ const designProjects = {
     ],
 
     gallery: [
-      "/assets/design/w2.png",
-      "/assets/design/z4.png",
-      "/assets/design/z10.png",
-      "/assets/design/w.png",
-      "/assets/design/d22.png",
-      "/assets/design/d21.png",
-      "/assets/design/d18.png",
+      "/assets/design/d8.jpg",
+      "/assets/design/z4.jpg",
+      "/assets/design/z10.jpg",
+      "/assets/design/z3.jpg",
+      "/assets/design/d22.jpg",
+      "/assets/design/d21.jpg",
+      "/assets/design/d18.jpg",
 
     ],
   },

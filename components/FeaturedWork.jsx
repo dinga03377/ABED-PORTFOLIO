@@ -93,7 +93,7 @@ const FeaturedWork = () => {
           >
             <div className="relative h-[420px] overflow-hidden">
               <Image
-                src="/assets/design/rest 1.png"
+                src="/assets/design/rest 1.jpg"
                 fill
                 alt="Design Project"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"

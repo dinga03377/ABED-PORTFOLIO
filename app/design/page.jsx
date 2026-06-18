@@ -11,7 +11,7 @@ const designs = [
     slug: "gericht-restaurant",
     title: "Gericht Restaurant Visual Identity",
     category: "Brand Identity",
-    image: "/assets/design/rest 1.png",
+    image: "/assets/design/rest 1.jpg",
 
     description:
   "A refined visual identity developed for Gericht Restaurant, capturing the essence of fine dining through elegant typography, sophisticated design elements, and a cohesive brand system. The identity was created to elevate the restaurant's presence while communicating quality, exclusivity, and memorable culinary experiences.",
@@ -30,7 +30,7 @@ const designs = [
     slug: "techzenith",
     title: "TechZenith Visual Identity",
     category: "Brand Identity",
-    image: "/assets/design/z7.png",
+    image: "/assets/design/z7.jpg",
 
     description:
         "A modern brand identity crafted for TechZenith, a technology-driven company at the intersection of innovation, AI, and digital solutions. The visual system was designed to communicate reliability, progress, and technological excellence while maintaining a clean and adaptable aesthetic for future growth.",
@@ -49,7 +49,7 @@ const designs = [
   {
     title: "Monday Motivation Campaign",
     category: "Poster Design",
-    image: "/assets/design/motivation 1.png",
+    image: "/assets/design/motivation 1.jpg",
 
     description:
       "A visually engaging motivational poster created to promote a positive mindset and inspire action. Through bold typography, thoughtful composition, and uplifting messaging, the design encourages viewers to embrace new opportunities, maintain focus, and approach the week with determination and confidence.",
@@ -65,7 +65,7 @@ const designs = [
   {
     title: "ARP Technology Training Advertisement",
     category: "Poster Design",
-    image: "/assets/design/flayer 222.png",
+    image: "/assets/design/flayer 222.jpg",
 
     description:
     "A high-impact advertising poster created for ARP Technology Training Institute to promote its technology education programs. The design was strategically developed to capture attention, communicate value, and inspire prospective students to pursue careers in software development, cybersecurity, data analytics, and other in-demand technology fields.",
@@ -82,7 +82,7 @@ const designs = [
   {
     title: "AfriTales Visual Identity",
     category: "Logo Design",
-    image: "/assets/design/afritales.png",
+    image: "/assets/design/afritales.jpg",
 
     description:
    "A bold and memorable brand identity developed for AfriTales, a YouTube documentary channel uncovering Africa's forgotten histories, mysteries, legends, and remarkable true stories. The design balances cultural authenticity with contemporary storytelling to create a timeless and engaging visual presence.",
@@ -99,7 +99,7 @@ const designs = [
   {
     title: "Biggy Empire Records",
     category: "Logo Design",
-    image: "/assets/design/logo2.png",
+    image: "/assets/design/logo2.jpg",
 
     description:
    "A modern brand identity designed for Biggy Empire Records, capturing the spirit of creativity, talent development, and musical excellence. The visual system was crafted to deliver a powerful, recognizable presence across digital platforms, promotional materials, and artist branding.",
@@ -116,7 +116,7 @@ const designs = [
   {
     title: "Jos Potato Logo Design",
     category: "Logo Design",
-    image: "/assets/design/joss.png",
+    image: "/assets/design/joss.jpg",
 
     description:
   "A modern agricultural logo designed to represent Jos Potato, inspired by the scenic Plateau landscapes, thriving farmlands, and the rich farming heritage of Plateau State. The identity reflects authenticity, growth, sustainability, and regional pride.",
@@ -134,7 +134,7 @@ const designs = [
   {
     title: "Imaginative Creation Co. Logo",
     category: "Logo Design",
-    image: "/assets/design/b5.png",
+    image: "/assets/design/creative.jpg",
 
     description:
    "A bold and expressive visual identity logo crafted for Imaginative Creation Co., a modern creative studio where imagination meets innovation. The design captures the fusion of artistic thinking and forward-looking technology, representing limitless creativity, originality, and modern brand storytelling.", 
@@ -152,7 +152,7 @@ const designs = [
    {
     title: "Tech with Dinga",
     category: "Logo Design",
-    image: "/assets/design/dings.png",
+    image: "/assets/design/dings.jpg",
 
     description:
         "A complete brand identity logo created for Tech with Dinga, blending technology, coding, and innovation through a clean visual system designed to inspire learning, creativity, and digital growth.",
