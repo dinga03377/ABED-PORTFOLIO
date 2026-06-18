@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: #0f0f14;
+  --surface: #17171f;
+
+  --accent: #c778ff;
+  --accent-soft: #e2b8ff;
+
+  --muted: #a1a1aa;
+
+  --border-soft: rgba(255,255,255,0.08);
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.bg-surface {
+  background-color: var(--surface);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.text-accentSoft {
+  color: var(--accent-soft);
+}
+
+bg-accentSoft {
+    background: var(--accent-soft);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.border-soft {
+  border-color: var(--border-soft);
+}
+.grid-background {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px);
+
+  background-size: 80px 80px;
+}
