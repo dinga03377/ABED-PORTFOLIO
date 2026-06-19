@@ -131,7 +131,7 @@ const sendEmail = async (e) => {
 
       {/* HERO */}
       <section className="pt-32 pb-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -168,7 +168,7 @@ const sendEmail = async (e) => {
         viewport={{ once: true }}
       >
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-[1fr_0.8fr] gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.8fr] gap-6 md:gap-10">
 
             {/* FORM */}
             <motion.div
@@ -177,23 +177,21 @@ const sendEmail = async (e) => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
               className="
-                rounded-[36px]
+                rounded-2xl md:rounded-[36px]
                 border
                 border-white/10
-                bg-white/[0.03]
                 backdrop-blur-xl
-                p-8
-                md:p-10
+                p-5 sm:p-6 md:p-10
               "
             >
-              <h2 className="text-3xl font-bold mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-10">
                 Start a Project
               </h2>
 
               <form 
                 ref={formRef}
                 onSubmit={sendEmail}
-                className="space-y-6">
+                className="space-y-5 md:space-y-6">
 
                   <input
                    type="text"
@@ -213,13 +211,13 @@ const sendEmail = async (e) => {
                     placeholder="John Doe"
                     className="
                       w-full
-                      rounded-2xl
+                      rounded-xl md:rounded-2xl
                       border
                       border-white/10
                       bg-black/20 backdrop-blur-md
-                      px-5 hover:border-white/20
-                      py-4
-                      outline-none
+                      hover:border-white/20
+                      py-3 md:py-4 px-4 md:px-5
+                      outline-none text-sm md:text-base
                       focus:border-accent focus:ring-2 focus:ring-accent/30
                       transition-all duration-300
                     "
@@ -298,11 +296,11 @@ const sendEmail = async (e) => {
                   </label>
 
                   <textarea
-                    rows={6}
+                    rows={5}
                     name="message"
                     placeholder="Tell me about your project..."
-                    className="w-full rounded-2xl border border-white/10 bg-black/20 backdrop-blur-md px-5
-                      py-4 outline-none resize-none focus:border-accent focus:ring-2 focus:ring-accent/30
+                    className="w-full rounded-xl md:rounded-2xl border border-white/10 bg-black/20 backdrop-blur-md text-sm md:text-base
+                      py-3 md:py-4 px-4 md:px-5 outline-none resize-none focus:border-accent focus:ring-2 focus:ring-accent/30
                       transition-all duration-300 hover:border-white/20"
                   />
                   {formErrors.message && (
@@ -315,7 +313,7 @@ const sendEmail = async (e) => {
                 {/* BUTTON */}
                 <button
                  disabled={loading}
-                  className="inline-flex items-center gap-3 rounded-full bg-accent px-8 py-5
+                  className="inline-flex items-center gap-3 w-full sm:w-auto  text-sm md:text-base justify-center rounded-full bg-accent  px-6 md:px-8 py-3 md:py-5
                     text-black font-medium transition-all duration-300 hover:scale-105 active:scale-[0.98]
                     hover:shadow-[0_0_35px_rgba(199,120,255,0.45)] disabled:opacity-50 disabled:cursor-not-allowed"
                 >
@@ -377,12 +375,12 @@ const sendEmail = async (e) => {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
                 className="
-                  rounded-[36px]
+                  rounded-2xl md:rounded-[36px]
                   border
                   border-white/10
                   bg-white/[0.03]
                   backdrop-blur-xl
-                  p-8
+                  p-5 sm:p-6 md:p-8
                 "
               >
                 <h2 className="text-3xl font-bold mb-10">
@@ -396,13 +394,12 @@ const sendEmail = async (e) => {
                     return (
                       <div
                         key={index}
-                        className="flex items-start gap-5"
+                        className="flex items-start gap-3 md:gap-5"
                       >
                         <div
                           className="
-                            w-14
-                            h-14
-                            rounded-2xl
+                            w-10 h-10 md:w-14 md:h-14
+                            rounded-xl md:rounded-2xl flex-shrink-0
                             border
                             border-white/10
                             bg-black/20
@@ -413,7 +410,7 @@ const sendEmail = async (e) => {
                         >
                           <Icon
                             size={22}
-                            className="text-accent"
+                            className="text-accent md:w-[22px] md:h-[22px]"
                           />
                         </div>
 
@@ -422,7 +419,7 @@ const sendEmail = async (e) => {
                             {item.title}
                           </p>
 
-                          <p className="text-white/80">
+                          <p className="text-white/80 text-sm md:text-base break-words">
                             {item.value}
                           </p>
                         </div>
@@ -439,11 +436,11 @@ const sendEmail = async (e) => {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
                 className="
-                  rounded-[36px]
+                  rounded-2xl md:rounded-[36px]
                   border
                   border-white/10
                   bg-accent/10
-                  p-8
+                  p-5 sm:p-6 md:p-8
                 "
               >
                 <div className="flex items-center gap-3 mb-6">
@@ -454,7 +451,7 @@ const sendEmail = async (e) => {
                   </span>
                 </div>
 
-                <h3 className="text-3xl font-bold leading-tight mb-5">
+                <h3 className="text-2xl md:text-3xl font-bold leading-tight mb-4 md:mb-5">
                   Open for freelance
                   <br />
                   and creative

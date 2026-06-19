@@ -6,7 +6,6 @@ import { ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import React from "react";
 
-
 const designProjects = {
   "gericht-restaurant": {
     title: "Gericht Restaurant Brand Identity",
@@ -111,7 +110,7 @@ const DesignDetailsPage = ({ params }) => {
       </div>
     );
   }
-
+  
   return (
     <main className="relative overflow-hidden pb-32">
       {/* Background */}

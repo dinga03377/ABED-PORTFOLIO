@@ -98,6 +98,8 @@ const MobileNav = () => {
           border-white/10
           bg-[#0a0a0f]/95
           backdrop-blur-2xl
+          overflow-y-auto
+          h-screen
           flex
           flex-col
           justify-between
